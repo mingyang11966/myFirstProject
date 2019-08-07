@@ -1,0 +1,16 @@
+/*轮播指示器*/
+.carousel-indicators li{
+  background:#fff;
+  border-radius: 50%;
+}
+.carousel-indicators li.active{
+  background:#0aa1ed;
+}
+/*轮播的左右箭头*/
+.carousel-control-prev,
+.carousel-control-next {
+  width:4%;height:20%;
+  background:#aaa;
+  border-radius: 0.25rem;
+  top:40%;
+}
