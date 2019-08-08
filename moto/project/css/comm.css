@@ -12,10 +12,10 @@ body {
 }
 @media screen and (min-width: 992px) {
   .my_header{height:7rem;}
-  .my_footer{height:20rem;}
+  .my_footer{height:23rem;}
 }@media screen and (max-width: 991px) {
   .my_header{height:11rem;}
-  .my_footer{height:30rem;}
+  .my_footer{height:28rem;}
 }
 .my_bg_color {
   background-color: #001232; }
