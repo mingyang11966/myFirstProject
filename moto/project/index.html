@@ -10,6 +10,7 @@ initial-scale=1">
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/comm.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
     <link rel="stylesheet" href="css/index.css"/>
 </head>
 <body>
@@ -33,13 +34,6 @@ initial-scale=1">
                 <img class="w-100 " src="img/lunbo1.jpg" alt=""/>
             </div>
         </div>
-        <!-- 指示器-->
-        <ul class="carousel-indicators">
-            <li data-slide-to="0" data-target="#demo" class="active"></li>
-            <li data-slide-to="1" data-target="#demo"></li>
-            <li data-slide-to="2" data-target="#demo"></li>
-            <li data-slide-to="3" data-target="#demo"></li>
-        </ul>
         <!-- 左右箭头-->
         <a href="#demo" data-slide="prev" class="carousel-control-prev">
             <span class="carousel-control-prev-icon"></span>
@@ -47,11 +41,20 @@ initial-scale=1">
         <a href="#demo" data-slide="next" class="carousel-control-next">
             <span class="carousel-control-next-icon"></span>
         </a>
+        <!-- 指示器-->
+        <ul class="carousel-indicators">
+            <li data-slide-to="0" data-target="#demo" class="active"></li>
+            <li data-slide-to="1" data-target="#demo"></li>
+            <li data-slide-to="2" data-target="#demo"></li>
+            <li data-slide-to="3" data-target="#demo"></li>
+        </ul>
     </div>
     <div class="row mt-4">
         <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="my_animation_2">
             <span>立即预订机车并提前享受优惠折扣</span>
             <img src="img/logo.png" alt="">
+            </div>
             <div class="col-lg-12">
                 <img class="w-100" src="img/pic_1.png" alt="">
             </div>
@@ -81,7 +84,7 @@ initial-scale=1">
                 <h5>有任何问题请拨打↓</h5>
             </div>
             <div class="position-relative mt-3">
-                <div class="position-absolute bg-warning">
+                <div class="position-absolute bg-warning my_animation_1">
                     <img class="my_phone_pic" src="img/pic_2.png" alt=""/>
                 </div>
                 <div class="my_bg_color w-50 position-absolute float-left ml-5">
@@ -89,9 +92,41 @@ initial-scale=1">
                 </div>
             </div>
         </div>
-        <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="col-lg-6 col-md-12 col-sm-12 my_animation_1">
             <img src="img/pic_3.png" alt=""/>
         </div>
+    </div>
+    <div>
+        <h1 class="index_title" style="border-bottom:4px solid #00f;">选你所需 遇见梦想</h1>
+    </div>
+    <div  class="index_title">
+        <h5 class="mt-4" style="text-align:left">BMW 摩托车设计团队藏龙卧虎，每位设计师都有自己的风格</h5>
+        <h5>他们在摩托车领域内游刃有余，为摩托车注入各自的灵感与激情</h5>
+        <h5 style="border-bottom:4px solid #00f;text-align:right">每辆新款 BMW 摩托车的创作都是多样设计的融合</h5>
+    </div>
+    <div class="mt-4 pt-4">
+        <ul class="nav nav-justified nav-tabs">
+            <li class="nav-item">
+                <a data-toggle="tab" class="nav-link font_size" href="#tab1">探险系列</a></li>
+            <li class="nav-item">
+                <a data-toggle="tab" class="nav-link font_size" href="#tab2">旅行系列</a></li>
+            <li class="nav-item">
+                <a data-toggle="tab" class="nav-link font_size" href="#tab3">继承者系列</a></li>
+            <li class="nav-item">
+                <a data-toggle="tab" class="nav-link font_size" href="#tab4">接车系列</a></li>
+            <li class="nav-item">
+                <a data-toggle="tab" class="nav-link font_size" href="#tab5">运动系列</a></li>
+            <li class="nav-item">
+                <a data-toggle="tab" class="nav-link font_size" href="#tab6">都市出行系列</a></li>
+        </ul>
+    </div>
+    <div class="tab-content">
+        <div id="tab1" class="tab-pane active">图片显示地方1</div>
+        <div id="tab2" class="tab-pane">显示地方2</div>
+        <div id="tab3" class="tab-pane">图片显示地方3</div>
+        <div id="tab4" class="tab-pane">图片显示地方4</div>
+        <div id="tab5" class="tab-pane">图片显示地方5</div>
+        <div id="tab6" class="tab-pane">显示地方6</div>
     </div>
 </div>
 <footer>

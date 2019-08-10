@@ -1,10 +1,14 @@
 /*ÂÖ²¥Ö¸Ê¾Æ÷*/
 .carousel-indicators li{
-    background:#fff;
-    border-radius: 200%;
+    width:0.6rem;
+    height:0.6rem;
+    background-color:#fff;
+    margin-left:0.4rem;
+    margin-right:0.4rem;
+    border-radius: 50%;
 }
 .carousel-indicators li.active{
-    background:#0aa1ed;
+    background-color:#0aa1ed;
 }
 /*ÂÖ²¥µÄ×óÓÒ¼ýÍ·*/
 .carousel-control-prev,
@@ -17,4 +21,24 @@
 .my_phone_pic{
     width:50px;
     height:50px;
+}
+.my_animation_1:hover{
+    animation:rotateIn 1s;
+}
+.my_animation_2:hover{
+    animation:fadeOutRightBig 5s;
+}
+.index_title{
+    font-weight:bold;
+    font-style:normal;
+    color:#10254a;
+    display:block;
+    vertical-align:bottom;
+    text-align: center;
+}
+.font_size{
+    font-weight:bold;
+    color:#919191;
+    font-size:23px;
+    text-align:center;
 }

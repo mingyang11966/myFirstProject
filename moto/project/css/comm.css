@@ -12,7 +12,7 @@ body {
 }
 @media screen and (min-width: 992px) {
   .my_header{height:7rem;}
-  .my_footer{height:23rem;}
+  .my_footer{height:22rem;}
 }@media screen and (max-width: 991px) {
   .my_header{height:11rem;}
   .my_footer{height:28rem;}
